@@ -627,7 +627,6 @@ footer .foter .row{
     gap: 4px;
     margin-bottom: 25px;
 }
-
 footer .foter .row img{
     width: 100%;
     border: 1px solid #088178;
@@ -640,7 +639,7 @@ footer .copy{
     text-align: center;
     padding: 20px 0 40px;
 }
-footer .copyright p{
+footer .copy p{
     font-size: 13px;
     color: #465b52;
 }
@@ -703,7 +702,7 @@ footer .copyright p{
     #features .feature{
         height: 190px;
     }
-    /* Products + Arrivals */
+    /*products+arrivals*/
     #products,
     #arrivals{
         padding: 40px 20px;
@@ -720,7 +719,7 @@ footer .copyright p{
     #arrivals .disarr{
         grid-template-columns: repeat(1, 1fr);
     }
-    /* Services */
+    /*services*/
     #services{
         height: auto;
         padding: 50px 20px;
@@ -731,7 +730,7 @@ footer .copyright p{
         line-height: 1.5;
         margin: 10px 0 20px;
     }
-    /* Banners */
+    /*banners*/
     #banners{
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
@@ -745,8 +744,7 @@ footer .copyright p{
         font-size: 24px;
         line-height: 32px;
     }
-
-    /* Photos */
+    /*photos*/
     #photos{
         grid-template-columns: repeat(1, 1fr);
         padding: 40px 20px;
@@ -759,7 +757,7 @@ footer .copyright p{
     #photos h2{
         font-size: 20px;
     }
-    /* Newsletter */
+    /*newsletter*/
     #new{
         flex-direction: column;
         align-items: flex-start;
@@ -770,8 +768,7 @@ footer .copyright p{
     #new .form{
         width: 100%;
     }
-
-    /* Footer */
+    /*footer*/
     footer{
         padding: 40px 20px;
     }
@@ -811,7 +808,7 @@ footer .copyright p{
         grid-template-columns: repeat(3, 1fr);
         padding: 0 40px;
     }
-    /*Products + Arrivals*/
+    /*products+arrivals*/
     #products,
     #arrivals{
         padding: 40px;
@@ -820,7 +817,7 @@ footer .copyright p{
     #arrivals .disarr{
         grid-template-columns: repeat(2, 1fr);
     }
-    /* Services */
+    /*services*/
     #services{
         padding: 0 40px;
         text-align: center;
@@ -829,7 +826,7 @@ footer .copyright p{
         font-size: 26px;
         line-height: 1.6;
     }
-    /* Banners */
+    /*banners*/
     #banners{
         gap: 20px;
         padding: 40px 40px 0;
@@ -841,7 +838,7 @@ footer .copyright p{
         font-size: 24px;
         line-height: 32px;
     }
-    /* Photos */
+    /*photos*/
     #photos{
         gap: 15px;
         padding: 40px;
@@ -858,7 +855,7 @@ footer .copyright p{
     #photos h3{
         font-size: 13px;
     }
-    /* Newsletter */
+    /*newsletter*/
     #new{
         height: auto;
         padding: 40px;
@@ -866,7 +863,7 @@ footer .copyright p{
     #new .form{
         width: 380px;
     }
-    /* Footer */
+    /*footer*/
     footer{
         padding: 60px 40px;
     }
@@ -877,16 +874,14 @@ footer .copyright p{
 }
 /*laptop*/
 @media (min-width: 1025px) and (max-width: 1200px){
-
-    /* Header */
+    /*navbar*/
     nav{
         padding: 25px 60px;
     }
     nav ul{
         gap: 30px;
     }
-
-    /* Hero */
+    /*hero*/
     .hero{
         padding: 0 60px;
     }
@@ -896,14 +891,12 @@ footer .copyright p{
     .hero h2{
         font-size: 42px;
     }
-
-    /* Features */
+    /*features*/
     #features{
         gap: 15px;
         padding: 0 60px;
     }
-
-    /* Products + Arrivals */
+    /*products+arrivals*/
     #products,
     #arrivals{
         padding: 40px 60px;
@@ -912,13 +905,11 @@ footer .copyright p{
     #arrivals .disarr{
         gap: 15px;
     }
-
-    /* Services */
+    /*services*/
     #services h2{
         font-size: 28px;
     }
-
-    /* Banners */
+    /*banners*/
     #banners{
         gap: 25px;
         padding: 40px 60px 0;
@@ -927,8 +918,7 @@ footer .copyright p{
         font-size: 26px;
         line-height: 34px;
     }
-
-    /* Photos */
+    /*photos*/
     #photos{
         gap: 15px;
         padding: 40px 60px;
@@ -936,16 +926,14 @@ footer .copyright p{
     #photos h2{
         font-size: 18px;
     }
-
-    /* Newsletter */
+    /*newsletter*/
     #new{
         padding: 40px 60px;
     }
     #new .form{
         width: 420px;
     }
-
-    /* Footer */
+    /*footer*/
     footer{
         padding: 60px;
     }
